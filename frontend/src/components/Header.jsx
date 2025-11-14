@@ -79,7 +79,7 @@ const Header = () => {
                 <button
                   key={link.id}
                   onClick={() => scrollToSection(link.id)}
-                  className="text-gray-300 hover:text-[#d9fb06] transition-colors text-left"
+                  className="text-gray-300 hover:text-[#60a5fa] transition-colors text-left"
                 >
                   {link.label}
                 </button>
