@@ -12,7 +12,7 @@ const Certifications = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Certifications
           </h2>
-          <div className="w-20 h-1 bg-[#d9fb06] mx-auto"></div>
+          <div className="w-20 h-1 bg-[#60a5fa] mx-auto"></div>
         </div>
 
         {/* Certifications Grid */}
@@ -20,11 +20,11 @@ const Certifications = () => {
           {certifications.map((cert, index) => (
             <Card
               key={index}
-              className="bg-[#1a1c1b] border-white/10 p-6 hover:border-[#d9fb06]/50 transition-all duration-300 hover:scale-105"
+              className="bg-[#1a1c1b] border-white/10 p-6 hover:border-[#60a5fa]/50 transition-all duration-300 hover:scale-105"
             >
               <div className="flex flex-col items-center text-center">
-                <div className="w-12 h-12 rounded-full bg-[#d9fb06]/10 flex items-center justify-center mb-4">
-                  <Award className="text-[#d9fb06]" size={24} />
+                <div className="w-12 h-12 rounded-full bg-[#60a5fa]/10 flex items-center justify-center mb-4">
+                  <Award className="text-[#60a5fa]" size={24} />
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">
                   {cert.name}

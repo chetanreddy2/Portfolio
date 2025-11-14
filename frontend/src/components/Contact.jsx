@@ -18,7 +18,7 @@ const Contact = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Get In Touch
           </h2>
-          <div className="w-20 h-1 bg-[#d9fb06] mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-[#60a5fa] mx-auto mb-6"></div>
           <p className="text-gray-400 text-lg">
             Feel free to reach out for collaborations or just a friendly hello
           </p>
@@ -31,10 +31,10 @@ const Contact = () => {
               {/* Email */}
               <a
                 href={`mailto:${personalInfo.email}`}
-                className="flex items-center gap-4 p-4 rounded-lg bg-[#1a1c1b] border border-white/10 hover:border-[#d9fb06]/50 transition-all duration-300"
+                className="flex items-center gap-4 p-4 rounded-lg bg-[#1a1c1b] border border-white/10 hover:border-[#60a5fa]/50 transition-all duration-300"
               >
-                <div className="w-12 h-12 rounded-full bg-[#d9fb06]/10 flex items-center justify-center flex-shrink-0">
-                  <Mail className="text-[#d9fb06]" size={20} />
+                <div className="w-12 h-12 rounded-full bg-[#60a5fa]/10 flex items-center justify-center flex-shrink-0">
+                  <Mail className="text-[#60a5fa]" size={20} />
                 </div>
                 <div className="flex-1 min-w-0">
                   <p className="text-gray-500 text-xs uppercase tracking-wide mb-1">Email</p>
@@ -45,10 +45,10 @@ const Contact = () => {
               {/* Phone */}
               <a
                 href={`tel:${personalInfo.phone}`}
-                className="flex items-center gap-4 p-4 rounded-lg bg-[#1a1c1b] border border-white/10 hover:border-[#d9fb06]/50 transition-all duration-300"
+                className="flex items-center gap-4 p-4 rounded-lg bg-[#1a1c1b] border border-white/10 hover:border-[#60a5fa]/50 transition-all duration-300"
               >
-                <div className="w-12 h-12 rounded-full bg-[#d9fb06]/10 flex items-center justify-center flex-shrink-0">
-                  <Phone className="text-[#d9fb06]" size={20} />
+                <div className="w-12 h-12 rounded-full bg-[#60a5fa]/10 flex items-center justify-center flex-shrink-0">
+                  <Phone className="text-[#60a5fa]" size={20} />
                 </div>
                 <div className="flex-1 min-w-0">
                   <p className="text-gray-500 text-xs uppercase tracking-wide mb-1">Phone</p>
@@ -63,7 +63,7 @@ const Contact = () => {
                 href={personalInfo.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 w-full sm:w-auto px-6 py-3 rounded-full bg-[#1a1c1b] border border-white/10 hover:border-[#d9fb06] hover:bg-[#1a1c1b] text-gray-300 hover:text-[#d9fb06] transition-all duration-300"
+                className="flex items-center gap-3 w-full sm:w-auto px-6 py-3 rounded-full bg-[#1a1c1b] border border-white/10 hover:border-[#60a5fa] hover:bg-[#1a1c1b] text-gray-300 hover:text-[#60a5fa] transition-all duration-300"
               >
                 <Github size={20} />
                 <span>GitHub</span>
@@ -72,7 +72,7 @@ const Contact = () => {
                 href={personalInfo.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 w-full sm:w-auto px-6 py-3 rounded-full bg-[#1a1c1b] border border-white/10 hover:border-[#d9fb06] hover:bg-[#1a1c1b] text-gray-300 hover:text-[#d9fb06] transition-all duration-300"
+                className="flex items-center gap-3 w-full sm:w-auto px-6 py-3 rounded-full bg-[#1a1c1b] border border-white/10 hover:border-[#60a5fa] hover:bg-[#1a1c1b] text-gray-300 hover:text-[#60a5fa] transition-all duration-300"
               >
                 <Linkedin size={20} />
                 <span>LinkedIn</span>
@@ -83,7 +83,7 @@ const Contact = () => {
             <div className="pt-6">
               <Button
                 onClick={handleDownloadResume}
-                className="w-full bg-[#d9fb06] text-black hover:bg-[#c4e605] font-semibold py-6 text-base rounded-full transition-all duration-300 hover:scale-105"
+                className="w-full bg-[#60a5fa] text-black hover:bg-[#3b82f6] font-semibold py-6 text-base rounded-full transition-all duration-300 hover:scale-105"
               >
                 <Download className="mr-2" size={20} />
                 Download Resume

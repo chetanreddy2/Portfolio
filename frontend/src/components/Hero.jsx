@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
             <Button
               onClick={() => scrollToSection('projects')}
-              className="bg-[#d9fb06] text-black hover:bg-[#c4e605] font-semibold px-8 py-6 text-base rounded-full transition-all duration-300 hover:scale-105"
+              className="bg-[#60a5fa] text-black hover:bg-[#3b82f6] font-semibold px-8 py-6 text-base rounded-full transition-all duration-300 hover:scale-105"
             >
               View My Work
               <ArrowRight className="ml-2" size={20} />
@@ -42,7 +42,7 @@ const Hero = () => {
             <Button
               onClick={() => scrollToSection('contact')}
               variant="outline"
-              className="border-[#d9fb06] text-[#d9fb06] hover:bg-[#d9fb06] hover:text-black font-semibold px-8 py-6 text-base rounded-full transition-all duration-300"
+              className="border-[#60a5fa] text-[#60a5fa] hover:bg-[#60a5fa] hover:text-black font-semibold px-8 py-6 text-base rounded-full transition-all duration-300"
             >
               Get In Touch
             </Button>
@@ -54,7 +54,7 @@ const Hero = () => {
               href={personalInfo.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-[#d9fb06] transition-colors"
+              className="text-gray-400 hover:text-[#60a5fa] transition-colors"
               aria-label="GitHub"
             >
               <Github size={24} />
@@ -63,14 +63,14 @@ const Hero = () => {
               href={personalInfo.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-[#d9fb06] transition-colors"
+              className="text-gray-400 hover:text-[#60a5fa] transition-colors"
               aria-label="LinkedIn"
             >
               <Linkedin size={24} />
             </a>
             <a
               href={`mailto:${personalInfo.email}`}
-              className="text-gray-400 hover:text-[#d9fb06] transition-colors"
+              className="text-gray-400 hover:text-[#60a5fa] transition-colors"
               aria-label="Email"
             >
               <Mail size={24} />

@@ -13,7 +13,7 @@ const Footer = () => {
           </p>
           <p className="flex items-center gap-2 text-gray-500 text-sm">
             Built with
-            <Heart size={14} className="text-[#d9fb06]" fill="currentColor" />
+            <Heart size={14} className="text-[#60a5fa]" fill="currentColor" />
             using React
           </p>
         </div>

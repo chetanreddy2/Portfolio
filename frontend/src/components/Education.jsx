@@ -12,7 +12,7 @@ const Education = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Education
           </h2>
-          <div className="w-20 h-1 bg-[#d9fb06] mx-auto"></div>
+          <div className="w-20 h-1 bg-[#60a5fa] mx-auto"></div>
         </div>
 
         {/* Education Timeline */}
@@ -20,12 +20,12 @@ const Education = () => {
           {education.map((edu, index) => (
             <Card
               key={index}
-              className="bg-[#0f0f10] border-white/10 p-8 hover:border-[#d9fb06]/50 transition-all duration-300"
+              className="bg-[#0f0f10] border-white/10 p-8 hover:border-[#60a5fa]/50 transition-all duration-300"
             >
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 rounded-full bg-[#d9fb06]/10 flex items-center justify-center">
-                    <GraduationCap className="text-[#d9fb06]" size={24} />
+                  <div className="w-12 h-12 rounded-full bg-[#60a5fa]/10 flex items-center justify-center">
+                    <GraduationCap className="text-[#60a5fa]" size={24} />
                   </div>
                 </div>
                 <div className="flex-1">
@@ -36,7 +36,7 @@ const Education = () => {
                   <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-sm">
                     <span className="text-gray-500">{edu.duration}</span>
                     <span className="hidden sm:inline text-gray-600">•</span>
-                    <span className="text-[#d9fb06] font-semibold">{edu.grade}</span>
+                    <span className="text-[#60a5fa] font-semibold">{edu.grade}</span>
                   </div>
                 </div>
               </div>

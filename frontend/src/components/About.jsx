@@ -11,7 +11,7 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             About Me
           </h2>
-          <div className="w-20 h-1 bg-[#d9fb06] mx-auto"></div>
+          <div className="w-20 h-1 bg-[#60a5fa] mx-auto"></div>
         </div>
 
         {/* Content */}
@@ -23,15 +23,15 @@ const About = () => {
           {/* Key Highlights */}
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-[#d9fb06] mb-2">7.5</div>
+              <div className="text-4xl font-bold text-[#60a5fa] mb-2">7.5</div>
               <div className="text-gray-400 text-sm uppercase tracking-wide">CGPA</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-[#d9fb06] mb-2">2+</div>
+              <div className="text-4xl font-bold text-[#60a5fa] mb-2">2+</div>
               <div className="text-gray-400 text-sm uppercase tracking-wide">Projects</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-[#d9fb06] mb-2">3+</div>
+              <div className="text-4xl font-bold text-[#60a5fa] mb-2">3+</div>
               <div className="text-gray-400 text-sm uppercase tracking-wide">Certifications</div>
             </div>
           </div>

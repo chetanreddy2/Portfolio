@@ -14,7 +14,7 @@ const Projects = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Featured Projects
           </h2>
-          <div className="w-20 h-1 bg-[#d9fb06] mx-auto"></div>
+          <div className="w-20 h-1 bg-[#60a5fa] mx-auto"></div>
         </div>
 
         {/* Projects Grid */}
@@ -22,7 +22,7 @@ const Projects = () => {
           {projects.map((project) => (
             <Card
               key={project.id}
-              className="bg-[#1a1c1b] border-white/10 overflow-hidden hover:border-[#d9fb06]/50 transition-all duration-300"
+              className="bg-[#1a1c1b] border-white/10 overflow-hidden hover:border-[#60a5fa]/50 transition-all duration-300"
             >
               <div className="p-8">
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
@@ -30,7 +30,7 @@ const Projects = () => {
                     <h3 className="text-2xl font-bold text-white mb-2">
                       {project.title}
                     </h3>
-                    <p className="text-[#d9fb06] text-sm font-medium">
+                    <p className="text-[#60a5fa] text-sm font-medium">
                       {project.subtitle}
                     </p>
                   </div>
@@ -38,7 +38,7 @@ const Projects = () => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-[#d9fb06] transition-colors"
+                    className="text-gray-400 hover:text-[#60a5fa] transition-colors"
                   >
                     <Github size={24} />
                   </a>
@@ -56,7 +56,7 @@ const Projects = () => {
                   <ul className="space-y-2">
                     {project.highlights.map((highlight, index) => (
                       <li key={index} className="flex items-start gap-2 text-gray-400 text-sm">
-                        <ChevronRight size={16} className="text-[#d9fb06] flex-shrink-0 mt-0.5" />
+                        <ChevronRight size={16} className="text-[#60a5fa] flex-shrink-0 mt-0.5" />
                         <span>{highlight}</span>
                       </li>
                     ))}

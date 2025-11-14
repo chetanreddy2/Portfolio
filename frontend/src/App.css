@@ -31,17 +31,17 @@ html {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #d9fb06;
+  background: #60a5fa;
 }
 
 /* Selection color */
 ::selection {
-  background-color: #d9fb06;
+  background-color: #60a5fa;
   color: #0f0f10;
 }
 
 /* Focus outline for accessibility */
 *:focus-visible {
-  outline: 2px solid #d9fb06;
+  outline: 2px solid #60a5fa;
   outline-offset: 2px;
 }

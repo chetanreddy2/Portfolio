@@ -13,21 +13,21 @@ const Skills = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Skills & Expertise
           </h2>
-          <div className="w-20 h-1 bg-[#d9fb06] mx-auto"></div>
+          <div className="w-20 h-1 bg-[#60a5fa] mx-auto"></div>
         </div>
 
         <div className="space-y-8">
           {/* Technical Skills */}
           <Card className="bg-[#0f0f10] border-white/10 p-8">
             <div className="flex items-center gap-3 mb-6">
-              <Code className="text-[#d9fb06]" size={28} />
+              <Code className="text-[#60a5fa]" size={28} />
               <h3 className="text-2xl font-bold text-white">Technical Skills</h3>
             </div>
             <div className="flex flex-wrap gap-3">
               {skills.technical.map((skill, index) => (
                 <Badge
                   key={index}
-                  className="bg-[#1a1c1b] text-gray-300 border border-white/10 hover:border-[#d9fb06] hover:text-[#d9fb06] transition-colors px-4 py-2 text-sm"
+                  className="bg-[#1a1c1b] text-gray-300 border border-white/10 hover:border-[#60a5fa] hover:text-[#60a5fa] transition-colors px-4 py-2 text-sm"
                 >
                   {skill.name}
                 </Badge>
@@ -38,14 +38,14 @@ const Skills = () => {
           {/* Soft Skills */}
           <Card className="bg-[#0f0f10] border-white/10 p-8">
             <div className="flex items-center gap-3 mb-6">
-              <Users className="text-[#d9fb06]" size={28} />
+              <Users className="text-[#60a5fa]" size={28} />
               <h3 className="text-2xl font-bold text-white">Soft Skills</h3>
             </div>
             <div className="flex flex-wrap gap-3">
               {skills.soft.map((skill, index) => (
                 <Badge
                   key={index}
-                  className="bg-[#1a1c1b] text-gray-300 border border-white/10 hover:border-[#d9fb06] hover:text-[#d9fb06] transition-colors px-4 py-2 text-sm"
+                  className="bg-[#1a1c1b] text-gray-300 border border-white/10 hover:border-[#60a5fa] hover:text-[#60a5fa] transition-colors px-4 py-2 text-sm"
                 >
                   {skill}
                 </Badge>
