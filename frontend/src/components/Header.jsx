@@ -42,7 +42,7 @@ const Header = () => {
           {/* Logo */}
           <button
             onClick={() => scrollToSection('hero')}
-            className="text-xl font-bold text-white hover:text-[#d9fb06] transition-colors"
+            className="text-xl font-bold text-white hover:text-[#60a5fa] transition-colors"
           >
             CR
           </button>
@@ -53,7 +53,7 @@ const Header = () => {
               <button
                 key={link.id}
                 onClick={() => scrollToSection(link.id)}
-                className="text-gray-300 hover:text-[#d9fb06] transition-colors text-sm font-medium"
+                className="text-gray-300 hover:text-[#60a5fa] transition-colors text-sm font-medium"
               >
                 {link.label}
               </button>
